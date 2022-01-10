@@ -3,7 +3,7 @@
 -- ft.site-name: FPM book
 -- ft.site-icon: static/images/logo.svg
 -- ft.github: https://github.com/fifthtry/fpm-book/
--- ft.site-url: /
+-- ft.site-url: /fpm-book/
 
 -- ft.header-toc:
 $processor$: toc
