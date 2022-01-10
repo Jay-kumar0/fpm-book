@@ -74,7 +74,7 @@ jobs:
         name: Commit changes to build branch
         with:
           commit_message: SSR build
-          branch: build
+          branch: gh-pages
           commit_options: '--no-verify --signoff'
           repository: .
   publish-tld:
