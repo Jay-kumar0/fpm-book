@@ -1,21 +1,8 @@
 
--- lib.index-page:
+-- ft.doc-page:
+toc: $ft.toc
 
---- lib.post-summary: FPM Book
-link: /what-is-fpm/
-published-date: 13th Dec, 2021
-cover-image: https://res.cloudinary.com/dphj6havg/image/upload/v1638648047/Rectangle_663_raj9bt.png
+-- ft.h1: Introduction
 
-ftd is a language to create web pages or documents for publishing on the web.
-It starts with Markdown, but adds features to create full page layouts, lets
-you create reusable “ftd components”, and has first class support for data modelling...
-
---- lib.post-summary: How to install FPM?
-link: /install-fpm/
-published-date: 13th Dec, 2021
-cover-image: https://res.cloudinary.com/dphj6havg/image/upload/v1638648047/Rectangle_664_q04opt.png
-
-fpm is available as a crate, you can install it using:
-`cargo install fpm` ...
-
-
+Creating a book with `fpm` is incredibly easy. `fpm` provides numerous libraries
+which allow you to create a book which is interoperable with multiple themes.

@@ -1,8 +1,23 @@
--- import: fifthtry.github.io/blog-theme as lib
+-- import: fifthtry.github.io/Jupiter-theme as ft
 
--- lib.site-name: Sourabh's blog
--- lib.site-logo:  https://res.cloudinary.com/dphj6havg/image/upload/v1638644344/Group_551_gqhmnl.svg
--- lib.copyright-text: © 2021 FPM Blog - Latest FPM News & Updates
--- lib.author-name: Sourabh
--- lib.author-bio: I'm a web/software developer who loves to build projects and share valuable tips for new programmers on this blog.
--- lib.author-image: https://res.cloudinary.com/dphj6havg/image/upload/v1640161877/pexels-pixabay-220453_1_1_vmdxvr.jpg
+-- ft.site-name: FPM book
+-- ft.site-icon: static/images/logo.svg
+-- ft.github: https://github.com/fifthtry/fpm-book/
+-- ft.site-url: /
+
+-- ft.header-toc:
+$processor$: toc
+
+- quickstart/
+  Quickstart
+- https://github.com/FifthTry/fpm-book/generate/
+  Use this template
+
+
+-- ft.toc:
+$processor$: toc
+
+- index.html
+  Introduction
+- ch00-00-getting-started/
+  Ch
