@@ -30,9 +30,11 @@ jobs:
         with:
           name: GH_PAGES_BUILD
           path: .build/
-      - run: |
-        rm -rf .build
-        fpm build --base=/
+      - name: build for tld
+        id: build_tld
+        run: |
+          rm -rf .build
+          fpm build --base=/
       - uses: actions/upload-artifact@master
         with:
           name: TLD_BUILD
