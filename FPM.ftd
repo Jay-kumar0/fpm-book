@@ -1,9 +1,9 @@
 -- import: fpm
 
 -- fpm.package: fpm-book
-zip: github.com/fifthtry/fpm-book/archive/refs/heads/main.zip
+zip: github.com/Jay-kumar0/fpm-book/archive/refs/heads/main.zip
 
--- fpm.dependency: fifthtry.github.io/Jupiter-theme
+-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme
 
 -- fpm.font: apple-system
 woff2: https://fonts.gstatic.com/s/opensans/v27/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2
